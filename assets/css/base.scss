@@ -1,0 +1,98 @@
+:root {
+    --color-primary: #114171;
+    --color-primary-dark: #0e345a;
+    --color-secondary: #f0f;
+    --color-gray1: #111;
+    --color-gray2: #333;
+    --color-gray3: #555;
+    --color-gray4: #777;
+    --color-gray5: #c9c9c9;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.btn {
+    border-radius: 500px;
+    padding: 8px 24px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    &:hover {
+        color: var(--color-primary-dark);
+        background-color: #fff;
+        border-color: var(--color-primary-dark);
+    }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    color: var(--color-primary-dark);
+    background-color: #fff;
+    border-color: var(--color-primary-dark);
+}
+
+.me-1 {
+    margin-inline-end: 5px;
+}
+
+.me-2 {
+    margin-inline-end: 10px;
+}
+
+.me-3 {
+    margin-inline-end: 15px;
+}
+
+.me-4 {
+    margin-inline-end: 20px;
+}
+
+.me-5 {
+    margin-inline-end: 25px;
+}
+
+.ms-1 {
+    margin-inline-start: 5px;
+}
+
+.ms-2 {
+    margin-inline-start: 10px;
+}
+
+.ms-3 {
+    margin-inline-start: 15px;
+}
+
+.ms-4 {
+    margin-inline-start: 20px;
+}
+
+.ms-5 {
+    margin-inline-start: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ul.reset-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.color-white {
+    color: #fff;
+}
