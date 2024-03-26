@@ -11,10 +11,28 @@
 
 // START shared css
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 .form-control {
-    height: 50px !important;
+    height: 50px;
     border-radius: 500px;
     padding: 0 20px;
+    &::placeholder {
+        color: var(--color-gray5);
+    }
+
+    &:focus {
+        border-color: var(--color-primary);
+    }
+}
+
+textarea.form-control {
+    height: 130px;
+    border-radius: 20px;
+    padding: 20px;
+    resize: none;
 }
 
 .section-bg-cyan {
@@ -329,6 +347,12 @@ footer {
     color: #fff;
 
     .social-media-icons {
+        li {
+            margin-inline-end: 10px;
+            &:last-child {
+                margin: 0;
+            }
+        }
         a {
             font-size: 18px;
             background: #fff;

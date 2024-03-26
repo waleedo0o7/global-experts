@@ -73,7 +73,9 @@
         <div class="container">
 
             <div class="custom-side-tabs">
+
                 <div class="row">
+
                     <div class="col-md-4">
                         <div class="list-group" id="list-tab" role="tablist">
                             <a class="list-group-item list-group-item-action active" id="our-vision-list" data-toggle="list" href="#our-vision" role="tab" aria-controls="home">
@@ -87,6 +89,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-md-8">
                         <div class="tab-content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="our-vision" role="tabpanel" aria-labelledby="our-vision-list">
@@ -174,6 +177,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div><!-- custom-side-tabs -->
         </div>

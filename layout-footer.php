@@ -14,10 +14,10 @@
                     <div class="col-md-6">
                         <h5 class="mb-4"> Follow us </h5>
                         <ul class="d-flex social-media-icons reset-list">
-                            <li class="me-3"> <a href="#" class="link facebook"> <i class="fab  fa-facebook-f"></i> </a></li>
-                            <li class="me-3"> <a href="#" class="link instagram"> <i class="fab  fa-instagram"></i> </a> </li>
-                            <li class="me-3"> <a href="#" class="link youtube"> <i class="fab  fa-youtube"></i> </a> </li>
-                            <li class="me-3"> <a href="#" class="link linkedin"> <i class="fab  fa-linkedin-in"></i> </a></li>
+                            <li> <a href="#" class="link facebook"> <i class="fab  fa-facebook-f"></i> </a></li>
+                            <li> <a href="#" class="link instagram"> <i class="fab  fa-instagram"></i> </a> </li>
+                            <li> <a href="#" class="link youtube"> <i class="fab  fa-youtube"></i> </a> </li>
+                            <li> <a href="#" class="link linkedin"> <i class="fab  fa-linkedin-in"></i> </a></li>
                         </ul>
                     </div> <!-- col-md-6 -->
                 </div> <!-- row -->

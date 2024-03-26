@@ -50,12 +50,14 @@ function initStorySlider() {
 
 function openMobileMenu() {
     $(".open-mobile-menu").on("click", function () {
-        $(".navbar .navbar-nav").addClass("show")
+        $(".navbar .navbar-nav").addClass("show");
+        $("body").addClass("overflow-hidden");
     });
 }
 
 function closeMobileMenu() {
     $(".close-mobile-menu").on("click", function () {
-        $(".navbar .navbar-nav").removeClass("show")
+        $(".navbar .navbar-nav").removeClass("show");
+        $("body").removeClass("overflow-hidden");
     });
 }

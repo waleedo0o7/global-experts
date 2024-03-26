@@ -109,10 +109,27 @@ ul.reset-list {
     transform: rotate(360deg);
   }
 }
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .form-control {
-  height: 50px !important;
+  height: 50px;
   border-radius: 500px;
   padding: 0 20px;
+}
+.form-control::placeholder {
+  color: var(--color-gray5);
+}
+.form-control:focus {
+  border-color: var(--color-primary);
+}
+
+textarea.form-control {
+  height: 130px;
+  border-radius: 20px;
+  padding: 20px;
+  resize: none;
 }
 
 .section-bg-cyan {
@@ -377,6 +394,12 @@ footer {
   padding: 50px 0;
   color: #fff;
 }
+footer .social-media-icons li {
+  margin-inline-end: 10px;
+}
+footer .social-media-icons li:last-child {
+  margin: 0;
+}
 footer .social-media-icons a {
   font-size: 18px;
   background: #fff;
@@ -625,9 +648,14 @@ html[dir=rtl] body {
   #intro {
     padding: 60px 0;
   }
+  .navbar {
+    z-index: 9999;
+    position: relative;
+  }
   .navbar .navbar-nav {
     display: none;
     position: fixed;
+    z-index: 9999;
     background: #fff;
     width: 100%;
     height: 100%;
@@ -642,6 +670,11 @@ html[dir=rtl] body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .navbar .open-mobile-menu {
     display: flex;
@@ -692,6 +725,47 @@ html[dir=rtl] body {
   }
   body {
     text-align: center;
+  }
+  .custom-side-tabs .list-group {
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .custom-side-tabs .list-group .list-group-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    border-inline-end: none;
+    border-bottom: 4px solid #fff;
+  }
+  .custom-side-tabs .list-group .list-group-item.active {
+    border-inline-end: none;
+    border-bottom: 4px solid var(--color-primary);
+  }
+  .custom-side-tabs .list-group .list-group-item img {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .quote-section:after {
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    right: -20px;
+  }
+  footer .links a.link {
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .social-media-icons {
+    justify-content: center;
+  }
+  .co-swiper-slider .swiper-button-prev i,
+  .co-swiper-slider .swiper-button-next i {
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
   }
 }
 
