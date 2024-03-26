@@ -11,8 +11,8 @@
                 <div class="col-md-6">
                     <div class="co-intro-text" data-aos="fade-up">
                         <h1 class="main-title"> We are elevating <br /> the quality of life </h1>
-                        <p class="lead"> We are a dynamic group of companies, operating across diverse niches, united by this vision</p>
-                        <a  class="btn btn-primary" data-fancybox="nike-big-gallery" href="https://www.youtube.com/watch?v=xMNx7hpVGP8"> <i class="fa fa-lg me-1 fa-circle-play"></i> play video </a>
+                        <p class="description"> We are a dynamic group of companies, operating across diverse niches, united by this vision</p>
+                        <a class="btn btn-primary" data-fancybox="nike-big-gallery" href="https://www.youtube.com/watch?v=xMNx7hpVGP8"> <i class="fa fa-lg me-1 fa-circle-play"></i> play video </a>
                     </div>
                 </div>
 

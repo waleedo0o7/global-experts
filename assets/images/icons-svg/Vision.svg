@@ -1,0 +1,18 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Vision Icon">
+<mask id="mask0_630_1194" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+<rect id="Rectangle 3886" width="40" height="40" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_630_1194)">
+<g id="Group 20902">
+<path id="Vector" d="M32.3314 4.00012H38.55V10.2188" stroke="#114171" stroke-width="2.5" stroke-miterlimit="10"/>
+<path id="Vector_2" d="M8.21864 4.00012H2V10.2188" stroke="#114171" stroke-width="2.5" stroke-miterlimit="10"/>
+<path id="Vector_3" d="M32.3314 36H38.55V29.7814" stroke="#114171" stroke-width="2.5" stroke-miterlimit="10"/>
+<path id="Vector_4" d="M8.21864 36H2V29.7814" stroke="#114171" stroke-width="2.5" stroke-miterlimit="10"/>
+<path id="Vector_5" d="M36.1947 20.0042C25.5829 31.5937 14.9709 31.5937 4.35901 20.0042C14.9709 8.41474 25.5829 8.41474 36.1947 20.0042Z" stroke="#114171" stroke-width="2.5" stroke-miterlimit="10"/>
+<path id="Vector_6" d="M28.9676 20.0047C28.9676 24.8049 25.0762 28.6963 20.276 28.6963C15.4758 28.6963 11.5844 24.8049 11.5844 20.0047C11.5844 15.2044 15.4758 11.313 20.276 11.313C25.0762 11.313 28.9676 15.2044 28.9676 20.0047Z" stroke="#114171" stroke-width="2.5" stroke-miterlimit="10"/>
+<path id="Vector_7" d="M22.8185 20.0043C22.8185 21.4085 21.6802 22.5469 20.276 22.5469C18.8719 22.5469 17.7335 21.4085 17.7335 20.0043C17.7335 18.6001 18.8719 17.4618 20.276 17.4618C21.6802 17.4618 22.8185 18.6001 22.8185 20.0043Z" stroke="#114171" stroke-width="2.5" stroke-miterlimit="10"/>
+</g>
+</g>
+</g>
+</svg>

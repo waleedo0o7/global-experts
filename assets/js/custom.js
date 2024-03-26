@@ -1,5 +1,7 @@
 $(function () {
     initNewsSlider();
+    initStorySlider();
+
     openMobileMenu();
     closeMobileMenu();
 
@@ -29,6 +31,20 @@ function initNewsSlider() {
                 slidesPerView: 2,
             },
         }
+    });
+}
+
+function initStorySlider() {
+    const swiper = new Swiper('.story-swiper', {
+        direction: 'horizontal',
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 1,
+
+        navigation: {
+            nextEl: '.story-button-next',
+            prevEl: '.story-button-prev',
+        },
     });
 }
 

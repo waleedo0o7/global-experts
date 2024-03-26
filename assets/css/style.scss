@@ -11,6 +11,21 @@
 
 // START shared css
 
+.form-control {
+    height: 50px !important;
+    border-radius: 500px;
+    padding: 0 20px;
+}
+
+.section-bg-cyan {
+    padding: 60px 0;
+    background-color: #f0fafa;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
 .navbar {
     box-shadow: 0 0 5px var(--color-gray5);
     z-index: 1;
@@ -238,17 +253,74 @@
     }
 }
 
-.swiper {
-    height: fit-content;
+.co-swiper-slider {
+    .swiper {
+        height: fit-content;
+    }
+
+    .swiper-pagination {
+        position: relative;
+        margin: 20px 0;
+    }
+
+    .swiper-wrapper {
+        height: fit-content;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: var(--color-primary);
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: auto;
+        height: auto;
+
+        &:after {
+            content: none;
+        }
+
+        i {
+            color: #000;
+            font-size: 16px;
+            width: 38px;
+            height: 38px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 500px;
+            box-shadow: 0 0 5px var(--color-gray5);
+        }
+    }
 }
 
-.swiper-pagination {
-    position: relative;
-    margin: 20px 0;
+.story-swiper {
+    width: 1000px;
+    max-width: 100%;
 }
 
-.swiper-pagination-bullet-active {
-    background: var(--color-primary);
+.co-page-title {
+    background: url(../images/page-header-bg.png);
+    background-size: 100% 100%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+
+    .title {
+        font-weight: bold;
+        color: var(--color-primary);
+    }
+}
+
+.co-section-title {
+    margin-bottom: 20px;
+    .title {
+        font-weight: bold;
+        color: var(--color-primary);
+        text-align: center;
+        margin: 0;
+    }
 }
 
 footer {
@@ -289,6 +361,10 @@ footer {
     }
 }
 
+.relative {
+    position: relative;
+}
+
 // END shared css
 
 #intro {
@@ -312,6 +388,9 @@ footer {
         .main-title {
             font-size: 3.6rem;
             font-weight: bold;
+        }
+        .description {
+            font-size: 22px;
         }
     }
 
@@ -420,6 +499,101 @@ footer {
         .swiper-pagination {
             margin-top: 30px;
         }
+    }
+}
+
+.custom-side-tabs {
+    .list-group-item {
+        border: none;
+        border-radius: 0px;
+        padding: 20px 30px;
+        font-size: 16px;
+
+        &.active {
+            color: var(--color-primary);
+            background-color: #e8ecf1;
+            border-color: #e8ecf1;
+            border-inline-end: 4px solid var(--color-primary);
+        }
+
+        img {
+            width: 30px;
+            margin-inline-end: 10px;
+        }
+    }
+}
+
+// about us
+
+.story-card {
+    .co-text {
+        .headline {
+            font-size: 32px;
+            font-weight: bold;
+            color: var(--color-primary);
+        }
+        .text {
+            font-size: 18px;
+            line-height: 2;
+        }
+    }
+}
+
+.quote-section {
+    padding: 140px 0;
+    position: relative;
+    text-align: center;
+    background-size: 500px;
+    overflow: hidden;
+    &:after {
+        content: "";
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        bottom: 0;
+        right: -60px;
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-image: url(../images/icons-svg/quote-icon.svg);
+        opacity: 0.1;
+    }
+
+    .co-quote {
+        position: relative;
+
+        &:after,
+        &:before {
+            content: url(../images/icons-svg/quote-icon.svg);
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            left: calc(50% - 25px);
+        }
+
+        &:before {
+            top: -60px;
+        }
+
+        &:after {
+            bottom: -60px;
+            transform: rotate(180deg);
+        }
+    }
+
+    .quote {
+        font-size: 38px;
+        font-weight: bold;
+        color: var(--color-primary);
+    }
+    .name {
+        font-size: 20;
+        font-weight: bold;
+        color: var(--color-primary);
+    }
+
+    .job-title {
+        font-size: 16;
+        color: var(--color-primary);
     }
 }
 
