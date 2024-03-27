@@ -40,7 +40,7 @@
 
         <ul class="navbar-nav ml-auto">
 
-            <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
+            <li class="nav-item active"> <a class="nav-link" href="home.php">Home</a> </li>
             <li class="nav-item"> <a class="nav-link" href="about-us.php"> About us</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#"> Our brands</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#"> Distribution</a> </li>
@@ -60,7 +60,7 @@
             </li>
 
             <li class="nav-item"> <a class="nav-link" href="#"> Order online </a> </li>
-            
+
             <li class="nav-item"> <a class="nav-link" href="#"> Careers </a> </li>
 
             <li class="nav-item"> <a class="nav-link" href="#"> Contact us </a> </li>

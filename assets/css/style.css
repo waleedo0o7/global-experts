@@ -13,6 +13,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-style: normal;
   overflow-x: hidden;
+  color: var(--color-primary);
 }
 
 .color-primary {
@@ -41,6 +42,25 @@ body {
   color: var(--color-primary-dark);
   background-color: #fff;
   border-color: var(--color-primary-dark);
+}
+
+.btn-light {
+  color: var(--color-primary);
+  background-color: #fff;
+  border-color: #fff;
+}
+.btn-light:hover {
+  color: var(--color-primary);
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.btn-link.focus,
+.btn-link:focus {
+  text-decoration: none !important;
 }
 
 .me-1 {
@@ -149,6 +169,7 @@ textarea.form-control {
 .navbar .navbar-nav .nav-item a.nav-link {
   padding: 28px 13px;
   display: flex;
+  transition: all 0.15s linear;
 }
 .navbar .navbar-nav .nav-item a.nav-link:hover {
   background-color: var(--color-primary);
@@ -230,6 +251,7 @@ textarea.form-control {
   padding: 15px 20px;
   font-size: 18px;
   color: var(--color-primary);
+  font-weight: bold;
 }
 .custom-accordion .card-header button:hover {
   text-decoration: none;
@@ -283,6 +305,7 @@ textarea.form-control {
 .icon-with-text-card {
   display: flex;
   align-items: center;
+  margin: 7px;
 }
 .icon-with-text-card .image {
   height: 60px;
@@ -410,9 +433,12 @@ footer .social-media-icons a {
   justify-content: center;
   align-items: center;
   border-radius: 500px;
+  transition: all 0.15s linear;
 }
 footer .social-media-icons a:hover {
-  color: #f0f;
+  color: var(--color-primary);
+  text-decoration: none;
+  background-color: #e2e6ea;
 }
 footer .co-footer-logo img {
   width: 200px;
@@ -431,7 +457,7 @@ footer .links a.link {
 #intro {
   background-image: url(../images/intro-bg.png);
   height: auto;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-position: bottom;
   background-repeat: no-repeat;
   display: flex;
@@ -458,11 +484,15 @@ footer .links a.link {
   justify-content: center;
   align-items: center;
 }
-#intro .earth-image {
+#intro .co-intro-image .earth-image {
   position: absolute;
-  top: 80px;
-  left: 70px;
-  animation: rotateIcon 10s linear infinite;
+  top: 11%;
+  left: 11%;
+  animation: rotateIcon 30s linear infinite;
+  width: 78%;
+}
+#intro .co-intro-image .earth-shape {
+  width: 90%;
 }
 
 #overview {
@@ -509,7 +539,7 @@ footer .links a.link {
   z-index: -1;
 }
 #about-owner .icon-with-text-card {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 #about-owner .icon-with-text-card img {
   height: 100px;
@@ -637,17 +667,15 @@ html[dir=rtl] body {
   }
 }
 @media all and (max-width: 1200px) {
-  #intro .row .co-intro-image {
-    display: none;
+  #intro {
+    padding: 60px 0 0 0;
+    text-align: center;
   }
   footer#footer .col-lg-6 {
     margin-bottom: 30px;
   }
 }
 @media all and (max-width: 992px) {
-  #intro {
-    padding: 60px 0;
-  }
   .navbar {
     z-index: 9999;
     position: relative;

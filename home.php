@@ -8,7 +8,7 @@
 
             <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-xl-6">
                     <div class="co-intro-text" data-aos="fade-up">
                         <h1 class="main-title"> We are elevating <br /> the quality of life </h1>
                         <p class="description"> We are a dynamic group of companies, operating across diverse niches, united by this vision</p>
@@ -16,16 +16,16 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-xl-6">
                     <div class="co-intro-image" data-aos="fade-up">
                         <img src="assets/images/intro-image.png" class="img-fluid earth-image">
                         <img src="assets/images/intro-earth-shape.svg" class="img-fluid earth-shape">
                     </div>
                 </div>
 
-            </div>
+            </div> <!-- row -->
 
-        </div>
+        </div> <!-- container -->
 
     </section><!-- intro -->
 
@@ -44,7 +44,7 @@
 
                 <div class="co-overview" data-aos="fade-up">
 
-                    <div class="co-text">
+                    <div class="co-text color-primary">
                         <h1> Overview </h1>
                         <p> We supply the finest medical solutions and products to: </p>
                     </div> <!-- co-text -->

@@ -6,9 +6,16 @@
 }
 
 // from 1200 to 0
-@media all and (max-width: 1200px) {
-    #intro .row .co-intro-image {
-        display: none;
+@media all and (max-width: 1200px) { 
+
+    #intro {
+        padding: 60px 0 0 0;
+        text-align: center;
+        .row {
+            .co-intro-image {
+                // display: none;
+            }
+        }
     }
 
     footer#footer .col-lg-6 {
@@ -18,9 +25,6 @@
 
 // from 992 to 0
 @media all and (max-width: 992px) {
-    #intro {
-        padding: 60px 0;
-    }
 
     .navbar {
         z-index: 9999;

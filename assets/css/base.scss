@@ -13,6 +13,7 @@ body {
     font-family: "Red Hat Display", sans-serif;
     font-style: normal;
     overflow-x: hidden;
+    color: var(--color-primary);
 }
 
 .color-primary {
@@ -41,6 +42,26 @@ body {
     color: var(--color-primary-dark);
     background-color: #fff;
     border-color: var(--color-primary-dark);
+}
+
+.btn-light {
+    color: var(--color-primary);
+    background-color: #fff;
+    border-color: #fff;
+
+    &:hover {
+        color: var(--color-primary);
+    }
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.btn-link.focus,
+.btn-link:focus {
+    text-decoration: none !important;
 }
 
 .me-1 {
@@ -83,7 +104,7 @@ body {
     margin-inline-start: 25px;
 }
 
-.mb-6{
+.mb-6 {
     margin-bottom: 5rem !important;
 }
 
